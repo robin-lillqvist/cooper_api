@@ -33,7 +33,11 @@ RSpec.describe User, type: :model do
         it { is_expected.to allow_value(email).for(:email) }
       end
     end
+
+    describe 'Relations' do
+      it { is_expected.to have_many :performance_data }
   end
+end
 
 
 
