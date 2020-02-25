@@ -13,6 +13,9 @@ ruby '2.6.3'
 group :development, :test do
   gem 'pry-rails'
   gem 'byebug'
+  gem 'rspec-rails'
+  gem 'shoulda-matchers'
+  gem 'factory_bot_rails'
 end
 
 group :development do
@@ -20,3 +23,5 @@ group :development do
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
 end
+
+gem 'rack-cors', require: 'rack/cors'
