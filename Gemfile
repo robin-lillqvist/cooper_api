@@ -25,3 +25,4 @@ group :development do
 end
 
 gem 'rack-cors', require: 'rack/cors'
+gem 'devise_token_auth'
