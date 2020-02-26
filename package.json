@@ -1,0 +1,8 @@
+{
+  "name": "cooper_api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/robin-lillqvist/cooper_api",
+  "author": "<robin.lillqvist@gmail.com>",
+  "license": "MIT"
+}
