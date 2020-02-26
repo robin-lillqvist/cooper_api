@@ -4,7 +4,7 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
-ruby '2.6.3'
+ruby '2.5.1'
   gem 'rails', '~> 5.2.0'
   gem 'pg', '>= 0.18', '< 2.0'
   gem 'puma', '~> 3.11'
@@ -25,3 +25,4 @@ group :development do
 end
 
 gem 'rack-cors', require: 'rack/cors'
+gem 'devise_token_auth'
