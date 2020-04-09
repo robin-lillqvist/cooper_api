@@ -1,7 +1,7 @@
 # README
 
-This application let the user save his/her Cooper challenge results.
-To save your results register on the page 
+This application is the backend part of my cooper application
+It saves and stores the results the users save in the frontend that can be found here: https://github.com/robin-lillqvist/cooper_client/
 
 * Ruby version  
 2.5.1
