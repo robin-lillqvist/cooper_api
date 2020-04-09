@@ -18,3 +18,4 @@ run the following commands
 
 * Deployment instructions  
 To start the application run ```rails s``` 
+The server is configured to run on localhost:3000
