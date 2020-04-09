@@ -1,24 +1,20 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This application let the user save his/her Cooper challenge results.
+To save your results register on the page 
 
-Things you may want to cover:
+* Ruby version  
+2.5.1
 
-* Ruby version
+* System dependencies  
+run ```yarn install``` to install the needed dependencies
 
-* System dependencies
+* Database creation and initialization  
+run the following commands 
+```rails db:create db:migrate```
 
-* Configuration
+* How to run the test suite  
+```rspec```
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Deployment instructions  
+To start the application run ```rails s``` 
